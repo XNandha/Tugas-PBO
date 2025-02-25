@@ -112,9 +112,9 @@ class Hp extends alatElektronik {
 
 public class Tugas1 {
     public static void main(String[] args) {
-        Televisi tv = new Televisi("LG", "Smart TV"); // Brand Televisi diubah ke LG
+        Televisi tv = new Televisi("LG", "Smart TV");
         Radio radio = new Radio("Sony", "FM/AM Radio");
-        Hp hp = new Hp("Xiaomi", "iPhone 12"); // Brand Hp diubah ke Xiaomi
+        Hp hp = new Hp("Xiaomi", "iPhone 12");
 
         tv.displayInfo();
         tv.turnOn();
